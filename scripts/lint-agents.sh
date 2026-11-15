@@ -22,6 +22,7 @@ AGENT_DIRS=(
   support
   spatial-computing
   specialized
+  singapore-maid-agency
 )
 
 REQUIRED_FRONTMATTER=("name" "description" "color")
@@ -32,6 +33,11 @@ warnings=0
 
 lint_file() {
   local file="$1"
+
+  # Skip division index docs — not agent prompts
+  if [[ "$(basename "$file")" == "README.md" ]]; then
+    return
+  fi
 
   # 1. Check frontmatter delimiters
   local first_line
@@ -87,7 +93,7 @@ else
     if [[ -d "$dir" ]]; then
       while IFS= read -r f; do
         files+=("$f")
-      done < <(find "$dir" -name "*.md" -type f | sort)
+      done < <(find "$dir" -name "*.md" -type f ! -name 'README.md' | sort)
     fi
   done
 fi

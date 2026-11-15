@@ -14,6 +14,7 @@ on:
       - 'support/**'
       - 'spatial-computing/**'
       - 'specialized/**'
+      - 'singapore-maid-agency/**'
       - 'strategy/**'
 
 jobs:
@@ -31,7 +32,7 @@ jobs:
           FILES=$(git diff --name-only --diff-filter=ACMR origin/${{ github.base_ref }}...HEAD -- \
             'design/**/*.md' 'engineering/**/*.md' 'game-development/**/*.md' 'marketing/**/*.md' 'paid-media/**/*.md' 'product/**/*.md' \
             'project-management/**/*.md' 'testing/**/*.md' 'support/**/*.md' \
-            'spatial-computing/**/*.md' 'specialized/**/*.md' 'strategy/**/*.md')
+            'spatial-computing/**/*.md' 'specialized/**/*.md' 'singapore-maid-agency/**/*.md' 'strategy/**/*.md')
           {
             echo "files<<ENDOFLIST"
             echo "$FILES"

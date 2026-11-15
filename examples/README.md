@@ -4,7 +4,7 @@ This directory contains example outputs demonstrating how the agency's agents ca
 
 ## Why This Exists
 
-The agency-agents repo defines dozens of specialized agents across engineering, design, marketing, product, support, spatial computing, and project management. But agent definitions alone don't show what happens when you **deploy them all at once** on a single mission.
+The agency-agents repo defines dozens of specialized agents across engineering, design, marketing, product, support, spatial computing, Singapore maid-agency operations, and project management. But agent definitions alone don't show what happens when you **deploy them all at once** on a single mission.
 
 These examples answer the question: *"What does it actually look like when the full agency collaborates?"*
 
@@ -38,6 +38,14 @@ These examples answer the question: *"What does it actually look like when the f
 | XR Interface Architect | Spatial UI specification |
 
 **Key takeaway:** All 8 agents ran in parallel and produced coherent, cross-referencing plans without coordination overhead. The output demonstrates the agency's ability to go from "find an opportunity" to "here's the full blueprint" in a single session.
+
+### [workflow-singapore-maid-agency-placement.md](./workflow-singapore-maid-agency-placement.md)
+
+**What:** End-to-end Singapore employment-agency workflow from first WhatsApp enquiry to Day-30 settling (with early-termination branch).
+
+**Agents used:** Agency Sales Closer, Employer Advisor, MDW Matching Consultant, MOM Compliance Officer, Placement Coordinator, Employer Support Desk, EA Operations Manager, Replacement & Refund Specialist.
+
+**Key takeaway:** Maid-agency work is a compliance + matching pipeline. These agents keep MOM gates, cost transparency, and Rule 13A refunds explicit instead of tribal knowledge in a group chat.
 
 ## Adding New Examples
 
