@@ -1,18 +1,29 @@
 # 🇸🇬 Singapore Maid Agency Division
 
-Specialised agents for **licensed employment agencies (EAs)** in Singapore that place **migrant domestic workers (MDWs / helpers)**.
+**For every licensed EA in Singapore.** Free (MIT). Not tied to one agency brand.
 
-Focus areas: **high-retention matching** and **MOM-compliant employer marketing**.
+👉 **New here?** Open **[START-HERE.md](START-HERE.md)** — ChatGPT path, one-command install, or printable toolkit.
 
-> **Not legal advice.** Fee amounts, insurance stages, advertising rules, and timelines change. Always verify against [mom.gov.sg](https://www.mom.gov.sg/) before acting.
+Specialised agents for placing **migrant domestic workers (MDWs / helpers)**: high-retention **matching**, **MOM-compliant employer marketing**, Work Permit ops, and refunds.
 
-## Quick start
+> **Not legal advice.** Always verify against [mom.gov.sg](https://www.mom.gov.sg/).
 
-| If you need… | Start here |
-|--------------|------------|
+## Adopt in your agency
+
+| Path | What to do |
+|------|------------|
+| Browser AI only | [CHAT-PROMPTS.md](CHAT-PROMPTS.md) |
+| Cursor / Claude Code | `./scripts/install-singapore-maid-agency.sh` |
+| Share with branches | `./scripts/install-singapore-maid-agency.sh --tool folder` |
+| Paper / Drive SOPs | [toolkit/](toolkit/) |
+
+## Quick start playbooks
+
+| Need | Doc |
+|------|-----|
 | Better shortlists / fewer refunds | [playbook-matching.md](playbook-matching.md) |
 | More qualified employer leads | [playbook-marketing.md](playbook-marketing.md) |
-| End-to-end matching + marketing | [../examples/workflow-singapore-maid-matching-marketing.md](../examples/workflow-singapore-maid-matching-marketing.md) |
+| Matching + marketing together | [../examples/workflow-singapore-maid-matching-marketing.md](../examples/workflow-singapore-maid-matching-marketing.md) |
 | Single placement ops | [../examples/workflow-singapore-maid-agency-placement.md](../examples/workflow-singapore-maid-agency-placement.md) |
 
 ## Matching roster
@@ -46,7 +57,7 @@ Focus areas: **high-retention matching** and **MOM-compliant employer marketing*
 | 📱 [Employer Support Desk](singapore-maid-agency-employer-support.md) | Settling check-ins | Post-handover issues |
 | 🏢 [EA Operations Manager](singapore-maid-agency-ea-operations-manager.md) | Licence health, demerits, KPIs | Branch ops / audits |
 
-## Suggested operating loop
+## Operating loop
 
 ```
 Marketing (compliant ads/SEO/content)
@@ -55,3 +66,7 @@ Marketing (compliant ads/SEO/content)
     → MOM Compliance → Placement → Support
     → Retention Analyst → improve matching weights + ad budget
 ```
+
+## Multi-agency note
+
+Put **your** EA full name + licence number on ads and landers. Customise packages and salary bands; keep MOM dignity / no-fee-bait advertising rules intact.

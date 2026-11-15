@@ -9,6 +9,29 @@
 
 ---
 
+## 🇸🇬 Singapore Maid Agencies — start here
+
+**For every licensed employment agency (EA) in Singapore** that places migrant domestic workers (MDWs). Free under MIT — fork, copy, or install.
+
+| Path | Link |
+|------|------|
+| **Start here (all EAs)** | [singapore-maid-agency/START-HERE.md](singapore-maid-agency/START-HERE.md) |
+| **No install (ChatGPT / Claude / Gemini)** | [singapore-maid-agency/CHAT-PROMPTS.md](singapore-maid-agency/CHAT-PROMPTS.md) |
+| **One-command install (SG agents only)** | `./scripts/install-singapore-maid-agency.sh` |
+| **Forms & checklists** | [singapore-maid-agency/toolkit/](singapore-maid-agency/toolkit/) |
+| **Full roster** | [singapore-maid-agency/README.md](singapore-maid-agency/README.md) |
+
+```bash
+# Install only Singapore Maid Agency agents (Cursor / Claude Code / shareable folder)
+./scripts/install-singapore-maid-agency.sh
+./scripts/install-singapore-maid-agency.sh --tool cursor
+./scripts/install-singapore-maid-agency.sh --tool folder   # zip/share with your branches
+```
+
+Covers **matching**, **MOM-compliant marketing**, Work Permit ops, and refunds. Verify live rules on [mom.gov.sg](https://www.mom.gov.sg/).
+
+---
+
 ## 🚀 What Is This?
 
 Born from a Reddit thread and months of iteration, **The Agency** is a growing collection of meticulously crafted AI agent personalities. Each agent is:
@@ -58,6 +81,10 @@ Browse the agents below and copy/adapt the ones you need!
 ./scripts/install.sh --tool copilot
 ./scripts/install.sh --tool aider
 ./scripts/install.sh --tool windsurf
+
+# Singapore maid agencies only (skips engineering/game-dev/etc.)
+./scripts/install-singapore-maid-agency.sh
+./scripts/convert.sh --tool cursor --category singapore-maid-agency
 ```
 
 See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for full details.
