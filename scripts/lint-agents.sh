@@ -34,8 +34,10 @@ warnings=0
 lint_file() {
   local file="$1"
 
-  # Skip division index docs — not agent prompts
-  if [[ "$(basename "$file")" == "README.md" ]]; then
+  # Skip division index docs and playbooks — not agent prompts
+  local base
+  base=$(basename "$file")
+  if [[ "$base" == "README.md" || "$base" == playbook-*.md ]]; then
     return
   fi
 

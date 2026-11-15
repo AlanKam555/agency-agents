@@ -255,35 +255,59 @@ Building worlds, systems, and experiences across every major engine.
 
 ### 🇸🇬 Singapore Maid Agency Division
 
-Licensed employment-agency workflows for placing migrant domestic workers (MDWs) in Singapore — matching, MOM compliance, placement logistics, refunds, and ops. See [singapore-maid-agency/README.md](singapore-maid-agency/README.md). Verify fees and rules on [mom.gov.sg](https://www.mom.gov.sg/).
+Licensed employment-agency workflows for placing migrant domestic workers (MDWs) in Singapore — **high-retention matching**, **MOM-compliant employer marketing**, Work Permit ops, and refunds. See [singapore-maid-agency/README.md](singapore-maid-agency/README.md). Verify fees and advertising rules on [mom.gov.sg](https://www.mom.gov.sg/).
+
+#### Matching
 
 | Agent | Specialty | When to Use |
 |-------|-----------|-------------|
-| 🤝 [MDW Matching Consultant](singapore-maid-agency/singapore-maid-agency-matching-consultant.md) | Needs briefs, shortlists, fit scoring | Before biodata spam or IPA filing |
+| 🤝 [MDW Matching Consultant](singapore-maid-agency/singapore-maid-agency-matching-consultant.md) | Care-type playbooks, weighted scorecards | Every shortlist / pre-IPA lock |
+| 🗂️ [Biodata Inventory Curator](singapore-maid-agency/singapore-maid-agency-biodata-curator.md) | Structured helper inventory & tags | Intake and PDF clean-up |
+| 🎤 [Interview & Skills Assessor](singapore-maid-agency/singapore-maid-agency-interview-assessor.md) | Video/practical skill gates | Conditional, infant, elderly matches |
+| 📈 [Match Retention Analyst](singapore-maid-agency/singapore-maid-agency-retention-analyst.md) | 30/90/180 survival analytics | Weekly QA and rule upgrades |
+
+#### Marketing (employer acquisition)
+
+| Agent | Specialty | When to Use |
+|-------|-----------|-------------|
+| 📢 [Employer Acquisition Marketer](singapore-maid-agency/singapore-maid-agency-employer-acquisition-marketer.md) | Channel mix, funnels, Meta+Google plan | Pipeline growth |
+| 🎯 [Google Ads Lead Specialist](singapore-maid-agency/singapore-maid-agency-google-ads-lead-specialist.md) | Search campaigns & job-seeker negatives | Paid search build/rebuild |
+| 🔎 [Local SEO & Reputation Lead](singapore-maid-agency/singapore-maid-agency-local-seo-reputation.md) | GBP, reviews, local landers | Maps / organic enquiries |
+| 📝 [Employer Content Strategist](singapore-maid-agency/singapore-maid-agency-employer-content-strategist.md) | Employer education content | Trust and pre-qualification |
+| 🛡️ [MOM Ad Compliance Reviewer](singapore-maid-agency/singapore-maid-agency-mom-ad-compliance-reviewer.md) | Pre-flight ad/page compliance | Before any boost or launch |
+
+#### Placement & ops
+
+| Agent | Specialty | When to Use |
+|-------|-----------|-------------|
 | 📋 [MOM Compliance Officer](singapore-maid-agency/singapore-maid-agency-mom-compliance-officer.md) | Work Permit, levy, bond, insurance, SIP/EOP | Applications, renewals, cancellations |
-| 🏠 [Employer Advisor](singapore-maid-agency/singapore-maid-agency-employer-advisor.md) | True cost of hire, readiness, expectations | First-time employers and cost transparency |
-| ✈️ [Placement Coordinator](singapore-maid-agency/singapore-maid-agency-placement-coordinator.md) | Arrival, SIP, medicals, handover | IPA approved → settled in household |
+| 🏠 [Employer Advisor](singapore-maid-agency/singapore-maid-agency-employer-advisor.md) | True cost of hire, readiness, expectations | First-time employers |
+| ✈️ [Placement Coordinator](singapore-maid-agency/singapore-maid-agency-placement-coordinator.md) | Arrival, SIP, medicals, handover | IPA approved → settled |
 | 🔁 [Replacement & Refund Specialist](singapore-maid-agency/singapore-maid-agency-replacement-specialist.md) | Early returns, replacements, Rule 13A refunds | Employment ends within six months |
 | 💬 [Agency Sales Closer](singapore-maid-agency/singapore-maid-agency-sales-closer.md) | Lead qualify, packages, objections | Enquiries and ethical fee closing |
 | 📱 [Employer Support Desk](singapore-maid-agency/singapore-maid-agency-employer-support.md) | Settling conflicts, Day 3/7/30 check-ins | Post-placement WhatsApp support |
 | 🏢 [EA Operations Manager](singapore-maid-agency/singapore-maid-agency-ea-operations-manager.md) | Licence health, demerits, SOPs, KPIs | Branch ops and audit readiness |
 
+Playbooks: [matching](singapore-maid-agency/playbook-matching.md) · [marketing](singapore-maid-agency/playbook-marketing.md)
+
 ---
 
 ## 🎯 Real-World Use Cases
 
-### Scenario 0: Singapore Maid Agency Placement
+### Scenario 0: Singapore Maid Agency — Matching + Marketing
 
-**Your Team**:
-1. 💬 **Agency Sales Closer** — Qualify the employer lead
-2. 🏠 **Employer Advisor** — Cost sheet + EOP + readiness
-3. 🤝 **MDW Matching Consultant** — Shortlist with scorecards
-4. 📋 **MOM Compliance Officer** — IPA, bond, insurance, SIP/WP
-5. ✈️ **Placement Coordinator** — Arrival → handover
-6. 📱 **Employer Support Desk** — Day 3/7/30 settling
-7. 🔁 **Replacement & Refund Specialist** — If the match fails early
+**Marketing team**:
+1. 🛡️ **MOM Ad Compliance Reviewer** — Kill fee-bait creatives
+2. 📝 **Employer Content Strategist** + 🔎 **Local SEO & Reputation** — Trust pages + GBP/reviews
+3. 🎯 **Google Ads Lead Specialist** + 📢 **Employer Acquisition Marketer** — Qualified employer pipeline
 
-**Result**: A compliant placement with documented matching, MOM gates, and a clear refund/replacement path. [Full workflow](examples/workflow-singapore-maid-agency-placement.md).
+**Matching team**:
+4. 🗂️ **Biodata Inventory Curator** — Match-ready helper inventory
+5. 💬 **Agency Sales Closer** → 🏠 **Employer Advisor** — Qualify + educate
+6. 🤝 **MDW Matching Consultant** → 🎤 **Interview & Skills Assessor** — Score + gate
+7. 📈 **Match Retention Analyst** — Feed survival data back into ads and scorecards
+
+**Result**: Compliant employer acquisition tied to high-retention matching. [Matching+marketing workflow](examples/workflow-singapore-maid-matching-marketing.md) · [Placement ops workflow](examples/workflow-singapore-maid-agency-placement.md).
 
 ---
 

@@ -47,6 +47,12 @@ These examples answer the question: *"What does it actually look like when the f
 
 **Key takeaway:** Maid-agency work is a compliance + matching pipeline. These agents keep MOM gates, cost transparency, and Rule 13A refunds explicit instead of tribal knowledge in a group chat.
 
+### [workflow-singapore-maid-matching-marketing.md](./workflow-singapore-maid-matching-marketing.md)
+
+**What:** Combined employer-acquisition marketing + high-retention matching system for a Singapore maid agency (elderly-care example), with MOM advertising compliance baked in.
+
+**Key takeaway:** Growth without fee-bait ads, and matching that feeds retention data back into budgets and scorecard rules.
+
 ## Adding New Examples
 
 If you run an interesting multi-agent exercise, consider adding it here. Good examples show:
