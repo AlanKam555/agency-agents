@@ -253,9 +253,39 @@ Building worlds, systems, and experiences across every major engine.
 | 🎯 [Roblox Experience Designer](game-development/roblox-studio/roblox-experience-designer.md) | Engagement loops, monetization, D1/D7 retention, onboarding flow | Designing Roblox game loops, Game Passes, daily rewards, player retention |
 | 👗 [Roblox Avatar Creator](game-development/roblox-studio/roblox-avatar-creator.md) | UGC pipeline, accessory rigging, Creator Marketplace submission | Roblox UGC items, HumanoidDescription customization, in-experience avatar shops |
 
+### 🇸🇬 Singapore Maid Agency Division
+
+Licensed employment-agency workflows for placing migrant domestic workers (MDWs) in Singapore — matching, MOM compliance, placement logistics, refunds, and ops. See [singapore-maid-agency/README.md](singapore-maid-agency/README.md). Verify fees and rules on [mom.gov.sg](https://www.mom.gov.sg/).
+
+| Agent | Specialty | When to Use |
+|-------|-----------|-------------|
+| 🤝 [MDW Matching Consultant](singapore-maid-agency/singapore-maid-agency-matching-consultant.md) | Needs briefs, shortlists, fit scoring | Before biodata spam or IPA filing |
+| 📋 [MOM Compliance Officer](singapore-maid-agency/singapore-maid-agency-mom-compliance-officer.md) | Work Permit, levy, bond, insurance, SIP/EOP | Applications, renewals, cancellations |
+| 🏠 [Employer Advisor](singapore-maid-agency/singapore-maid-agency-employer-advisor.md) | True cost of hire, readiness, expectations | First-time employers and cost transparency |
+| ✈️ [Placement Coordinator](singapore-maid-agency/singapore-maid-agency-placement-coordinator.md) | Arrival, SIP, medicals, handover | IPA approved → settled in household |
+| 🔁 [Replacement & Refund Specialist](singapore-maid-agency/singapore-maid-agency-replacement-specialist.md) | Early returns, replacements, Rule 13A refunds | Employment ends within six months |
+| 💬 [Agency Sales Closer](singapore-maid-agency/singapore-maid-agency-sales-closer.md) | Lead qualify, packages, objections | Enquiries and ethical fee closing |
+| 📱 [Employer Support Desk](singapore-maid-agency/singapore-maid-agency-employer-support.md) | Settling conflicts, Day 3/7/30 check-ins | Post-placement WhatsApp support |
+| 🏢 [EA Operations Manager](singapore-maid-agency/singapore-maid-agency-ea-operations-manager.md) | Licence health, demerits, SOPs, KPIs | Branch ops and audit readiness |
+
 ---
 
 ## 🎯 Real-World Use Cases
+
+### Scenario 0: Singapore Maid Agency Placement
+
+**Your Team**:
+1. 💬 **Agency Sales Closer** — Qualify the employer lead
+2. 🏠 **Employer Advisor** — Cost sheet + EOP + readiness
+3. 🤝 **MDW Matching Consultant** — Shortlist with scorecards
+4. 📋 **MOM Compliance Officer** — IPA, bond, insurance, SIP/WP
+5. ✈️ **Placement Coordinator** — Arrival → handover
+6. 📱 **Employer Support Desk** — Day 3/7/30 settling
+7. 🔁 **Replacement & Refund Specialist** — If the match fails early
+
+**Result**: A compliant placement with documented matching, MOM gates, and a clear refund/replacement path. [Full workflow](examples/workflow-singapore-maid-agency-placement.md).
+
+---
 
 ### Scenario 1: Building a Startup MVP
 
