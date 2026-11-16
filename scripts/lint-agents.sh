@@ -34,8 +34,13 @@ warnings=0
 lint_file() {
   local file="$1"
 
-  # Skip division index docs — not agent prompts
-  if [[ "$(basename "$file")" == "README.md" ]]; then
+  # Skip division docs / playbooks / toolkit — not agent prompts
+  local base
+  base=$(basename "$file")
+  if [[ "$base" == "README.md" || "$base" == "START-HERE.md" || "$base" == "CHAT-PROMPTS.md" || "$base" == "STAFF-CHEATSHEET.md" || "$base" == "FAQ.md" || "$base" == playbook-*.md ]]; then
+    return
+  fi
+  if [[ "$file" == *"/toolkit/"* ]]; then
     return
   fi
 

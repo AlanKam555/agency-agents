@@ -7,7 +7,7 @@
 # integration files after adding or modifying agents.
 #
 # Usage:
-#   ./scripts/convert.sh [--tool <name>] [--out <dir>] [--help]
+#   ./scripts/convert.sh [--tool <name>] [--category <dir>] [--out <dir>] [--help]
 #
 # Tools:
 #   antigravity  — Antigravity skill files (~/.gemini/antigravity/skills/)
@@ -18,6 +18,9 @@
 #   windsurf     — Single .windsurfrules for Windsurf
 #   openclaw     — OpenClaw SOUL.md files (openclaw_workspace/<agent>/SOUL.md)
 #   all          — All tools (default)
+#
+# Categories:
+#   --category <dir>  Convert only one division (e.g. singapore-maid-agency)
 #
 # Output is written to integrations/<tool>/ relative to the repo root.
 # This script never touches user config dirs — see install.sh for that.
@@ -412,10 +415,12 @@ write_single_file_outputs() {
 
 main() {
   local tool="all"
+  local category=""
 
   while [[ $# -gt 0 ]]; do
     case "$1" in
       --tool) tool="${2:?'--tool requires a value'}"; shift 2 ;;
+      --category) category="${2:?'--category requires a value'}"; shift 2 ;;
       --out)  OUT_DIR="${2:?'--out requires a value'}"; shift 2 ;;
       --help|-h) usage ;;
       *) error "Unknown option: $1"; usage ;;
@@ -430,10 +435,21 @@ main() {
     exit 1
   fi
 
+  if [[ -n "$category" ]]; then
+    local cat_ok=false d
+    for d in "${AGENT_DIRS[@]}"; do [[ "$d" == "$category" ]] && cat_ok=true && break; done
+    if ! $cat_ok; then
+      error "Unknown category '$category'. Valid: ${AGENT_DIRS[*]}"
+      exit 1
+    fi
+    AGENT_DIRS=("$category")
+  fi
+
   header "The Agency -- Converting agents to tool-specific formats"
   echo "  Repo:   $REPO_ROOT"
   echo "  Output: $OUT_DIR"
   echo "  Tool:   $tool"
+  echo "  Category: ${category:-all}"
   echo "  Date:   $TODAY"
 
   local tools_to_run=()
