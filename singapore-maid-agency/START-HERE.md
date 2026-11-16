@@ -15,8 +15,10 @@
 | You only use **ChatGPT / Claude / Gemini** in a browser | → [Path A](#path-a--chat-apps-no-install) |
 | You use **Cursor** or **Claude Code** | → [Path B](#path-b--one-command-install) |
 | You want **forms & SOPs** even without AI | → [Path C](#path-c--toolkit-no-ai-required) |
+| You manage a team (EN/中文) | → [STAFF-CHEATSHEET.md](STAFF-CHEATSHEET.md) |
+| Questions | → [FAQ.md](FAQ.md) |
 
-Then read the [operating loop](#daily-operating-loop) once.
+Then do the [first-week plan](#first-week-plan) and skim the [operating loop](#daily-operating-loop).
 
 ---
 
@@ -71,10 +73,27 @@ Print or copy these into your Google Drive / Notion / WhatsApp templates:
 | [toolkit/employer-needs-brief.md](toolkit/employer-needs-brief.md) | Intake before biodata |
 | [toolkit/match-scorecard.md](toolkit/match-scorecard.md) | Score each shortlisted helper |
 | [toolkit/lead-qualification.md](toolkit/lead-qualification.md) | WhatsApp / form fields |
+| [toolkit/whatsapp-macros.md](toolkit/whatsapp-macros.md) | EN + 中文 reply macros |
+| [toolkit/cost-quote-private.md](toolkit/cost-quote-private.md) | Private fee quote (not for ads) |
 | [toolkit/ad-compliance-checklist.md](toolkit/ad-compliance-checklist.md) | Before boosting any ad |
 | [toolkit/day7-checkin.md](toolkit/day7-checkin.md) | Settling call script |
+| [toolkit/weekly-kpi.md](toolkit/weekly-kpi.md) | Monday retention / funnel pulse |
 
-Playbooks: [matching](playbook-matching.md) · [marketing](playbook-marketing.md).
+Playbooks: [matching](playbook-matching.md) · [marketing](playbook-marketing.md).  
+Worked example: [elderly-care match](../examples/sample-singapore-elderly-care-match.md).
+
+---
+
+## First-week plan
+
+| Day | Action | Done |
+|-----|--------|------|
+| 1 | Pin [STAFF-CHEATSHEET.md](STAFF-CHEATSHEET.md); create 4 AI chats (Sales / Matching / Compliance / Marketing) | ☐ |
+| 2 | Run [ad-compliance-checklist](toolkit/ad-compliance-checklist.md) on every live FB/Google/GBP post; take down violations | ☐ |
+| 3 | Add lead qualification fields to WhatsApp auto-reply ([macros](toolkit/whatsapp-macros.md)) | ☐ |
+| 4 | Train matching desk: Needs Brief → max 3 scorecards ([worked example](../examples/sample-singapore-elderly-care-match.md)) | ☐ |
+| 5 | Start Day-7 check-ins for all active new placements | ☐ |
+| Mon+ | Fill [weekly-kpi.md](toolkit/weekly-kpi.md) every Monday | ☐ |
 
 ---
 
@@ -106,7 +125,10 @@ If you do only **two** things this week:
 | Need | Link |
 |------|------|
 | Agent roster | [README.md](README.md) |
-| Copy-paste prompts | [CHAT-PROMPTS.md](CHAT-PROMPTS.md) |
+| Staff who-opens-what | [STAFF-CHEATSHEET.md](STAFF-CHEATSHEET.md) |
+| FAQ | [FAQ.md](FAQ.md) |
+| Copy-paste prompts (EN + 中文) | [CHAT-PROMPTS.md](CHAT-PROMPTS.md) |
+| Worked matching example | [../examples/sample-singapore-elderly-care-match.md](../examples/sample-singapore-elderly-care-match.md) |
 | Matching + marketing workflow | [../examples/workflow-singapore-maid-matching-marketing.md](../examples/workflow-singapore-maid-matching-marketing.md) |
 | Placement ops workflow | [../examples/workflow-singapore-maid-agency-placement.md](../examples/workflow-singapore-maid-agency-placement.md) |
 | MOM (official) | https://www.mom.gov.sg/employment-agencies |

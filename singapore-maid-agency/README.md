@@ -12,10 +12,14 @@ Specialised agents for placing **migrant domestic workers (MDWs / helpers)**: hi
 
 | Path | What to do |
 |------|------------|
-| Browser AI only | [CHAT-PROMPTS.md](CHAT-PROMPTS.md) |
+| **Start here** | [START-HERE.md](START-HERE.md) |
+| Browser AI only | [CHAT-PROMPTS.md](CHAT-PROMPTS.md) (EN + 中文) |
+| Staff roles | [STAFF-CHEATSHEET.md](STAFF-CHEATSHEET.md) |
+| FAQ | [FAQ.md](FAQ.md) |
 | Cursor / Claude Code | `./scripts/install-singapore-maid-agency.sh` |
 | Share with branches | `./scripts/install-singapore-maid-agency.sh --tool folder` |
 | Paper / Drive SOPs | [toolkit/](toolkit/) |
+| Worked example | [../examples/sample-singapore-elderly-care-match.md](../examples/sample-singapore-elderly-care-match.md) |
 
 ## Quick start playbooks
 

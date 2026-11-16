@@ -121,11 +121,12 @@ install_folder() {
     (( count++ )) || true
   done < <(list_agent_files)
   # Also copy adoption docs
-  cp "$SRC_DIR/START-HERE.md" "$dest/" 2>/dev/null || true
-  cp "$SRC_DIR/CHAT-PROMPTS.md" "$dest/" 2>/dev/null || true
+  for doc in START-HERE.md CHAT-PROMPTS.md STAFF-CHEATSHEET.md FAQ.md README.md playbook-matching.md playbook-marketing.md; do
+    cp "$SRC_DIR/$doc" "$dest/" 2>/dev/null || true
+  done
   cp -R "$SRC_DIR/toolkit" "$dest/toolkit" 2>/dev/null || true
-  ok "Folder pack: $count agents (+ START-HERE, CHAT-PROMPTS, toolkit) -> $dest"
-  warn "Upload agent .md files into Custom GPTs / Claude Projects, or share the folder with staff."
+  ok "Folder pack: $count agents (+ START-HERE, prompts, cheatsheet, FAQ, toolkit) -> $dest"
+  warn "Start staff on START-HERE.md (first-week plan). Upload agent .md files into Custom GPTs / Claude Projects if needed."
 }
 
 main() {

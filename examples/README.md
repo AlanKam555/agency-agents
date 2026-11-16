@@ -53,6 +53,12 @@ These examples answer the question: *"What does it actually look like when the f
 
 **Key takeaway:** Growth without fee-bait ads, and matching that feeds retention data back into budgets and scorecard rules.
 
+### [sample-singapore-elderly-care-match.md](./sample-singapore-elderly-care-match.md)
+
+**What:** Filled worked example of an elderly-care match from lead → Needs Brief → shortlist → interview → handover.
+
+**Key takeaway:** Shows consultants what “good” looks like so blank toolkit forms are not theoretical.
+
 ## Adding New Examples
 
 If you run an interesting multi-agent exercise, consider adding it here. Good examples show:

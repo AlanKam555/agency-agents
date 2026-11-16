@@ -16,10 +16,12 @@
 | Path | Link |
 |------|------|
 | **Start here (all EAs)** | [singapore-maid-agency/START-HERE.md](singapore-maid-agency/START-HERE.md) |
-| **No install (ChatGPT / Claude / Gemini)** | [singapore-maid-agency/CHAT-PROMPTS.md](singapore-maid-agency/CHAT-PROMPTS.md) |
+| **No install (ChatGPT / Claude / Gemini)** | [singapore-maid-agency/CHAT-PROMPTS.md](singapore-maid-agency/CHAT-PROMPTS.md) (EN + 中文) |
+| **Staff cheatsheet** | [singapore-maid-agency/STAFF-CHEATSHEET.md](singapore-maid-agency/STAFF-CHEATSHEET.md) |
 | **One-command install (SG agents only)** | `./scripts/install-singapore-maid-agency.sh` |
-| **Forms & checklists** | [singapore-maid-agency/toolkit/](singapore-maid-agency/toolkit/) |
-| **Full roster** | [singapore-maid-agency/README.md](singapore-maid-agency/README.md) |
+| **Forms, WhatsApp macros, KPIs** | [singapore-maid-agency/toolkit/](singapore-maid-agency/toolkit/) |
+| **Worked matching example** | [examples/sample-singapore-elderly-care-match.md](examples/sample-singapore-elderly-care-match.md) |
+| **Full roster / FAQ** | [singapore-maid-agency/README.md](singapore-maid-agency/README.md) · [FAQ](singapore-maid-agency/FAQ.md) |
 
 ```bash
 # Install only Singapore Maid Agency agents (Cursor / Claude Code / shareable folder)

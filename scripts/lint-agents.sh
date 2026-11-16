@@ -37,7 +37,7 @@ lint_file() {
   # Skip division docs / playbooks / toolkit — not agent prompts
   local base
   base=$(basename "$file")
-  if [[ "$base" == "README.md" || "$base" == "START-HERE.md" || "$base" == "CHAT-PROMPTS.md" || "$base" == playbook-*.md ]]; then
+  if [[ "$base" == "README.md" || "$base" == "START-HERE.md" || "$base" == "CHAT-PROMPTS.md" || "$base" == "STAFF-CHEATSHEET.md" || "$base" == "FAQ.md" || "$base" == playbook-*.md ]]; then
     return
   fi
   if [[ "$file" == *"/toolkit/"* ]]; then
